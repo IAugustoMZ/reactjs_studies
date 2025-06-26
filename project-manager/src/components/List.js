@@ -5,20 +5,15 @@ function List(){
         <>
             <h1>My Project Task List</h1>
             <ul>
-                <ListItem task_name="Create a new project" />
-                <ListItem task_name="Create a new component" />
-                <ListItem task_name="Create a new page" />
-                <ListItem task_name="Create a new route" />
-                <ListItem task_name="Create a new service" />
-                <ListItem task_name="Create a new API" />
-                <ListItem task_name="Create a new database" />
-                <ListItem task_name="Create a new model" />
-                <ListItem task_name="Create a new controller" />
-                <ListItem task_name="Create a new view" />
-                <ListItem task_name="Create a new middleware" />
-                <ListItem task_name="Create a new helper" />
-                <ListItem task_name="Create a new utility" />
-                <ListItem task_name="Create a new library" />
+                <ListItem taskName="Create a new project" owner="Icaro" devPoints={1}/>
+                <ListItem taskName="Create a new component" owner="Icaro" devPoints={2}/>
+                <ListItem taskName="Create a new page" owner="Icaro" devPoints={3}/>
+                <ListItem taskName="Create a new feature" owner="Icaro" devPoints={5}/>
+                <ListItem taskName="Create a new API" owner="Icaro" devPoints={8}/>
+                <ListItem taskName="Create a new database" owner="Icaro" devPoints={13}/>
+                <ListItem />
+                <ListItem />
+
             </ul>
         </>
     )
