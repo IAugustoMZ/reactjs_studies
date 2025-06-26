@@ -1,4 +1,5 @@
 import './App.css';
+import HelloWorld from './components/HelloWorld';
 
 function App() {
   const name = 'Project Manager';
@@ -16,6 +17,7 @@ function App() {
       <p>Example of simple sum: {2+2}</p>
       <p>Example of function call: {sum(3, 4)}</p>
       <img src={url} alt="Dynamic Placeholder" />
+      <HelloWorld />
     </div>
   );
 }
