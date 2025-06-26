@@ -1,5 +1,5 @@
 import './App.css';
-import Pessoa from './components/Pessoa'
+import Person from './components/Person'
 import SayMyName from './components/SayMyName';
 import HelloWorld from './components/HelloWorld';
 
@@ -11,7 +11,7 @@ function App() {
       <HelloWorld />
       <SayMyName name="Icaro" />
       <SayMyName name={nome} />
-      <Pessoa 
+      <Person 
         name="Icaro Zelioli"
         age={32}
         profession="Data and AI Lead"

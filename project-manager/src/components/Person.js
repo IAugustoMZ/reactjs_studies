@@ -1,4 +1,4 @@
-function Pessoa({ photo, name, age, profession }) {
+function Person({ photo, name, age, profession }) {
 
     return (
         <div>
@@ -10,4 +10,4 @@ function Pessoa({ photo, name, age, profession }) {
     )
 }
 
-export default Pessoa
+export default Person

@@ -5,6 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 50px;
+  background-color: #efefef;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  background-color: #999;
+  padding: 10px;
 }
 
 code {
