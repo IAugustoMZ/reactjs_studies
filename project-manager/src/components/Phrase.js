@@ -1,7 +1,9 @@
+import styles from './Phrase.module.css';
+
 function Phrase() {
     return (
-        <div>
-            <p>This is a component with a phrase</p>
+        <div className={styles.phraseContainer}>
+            <p className={styles.phraseContent}>This is a component with a phrase</p>
         </div>
     )
 }
