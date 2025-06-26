@@ -3,13 +3,15 @@ import List from './components/List';
 import Person from './components/Person'
 import SayMyName from './components/SayMyName';
 import HelloWorld from './components/HelloWorld';
+import ClickEvent from './components/ClickEvent';
+import ProjectForm from './components/ProjectForm';
 
 function App() {
   const nome = 'Icaro, Zelioli';
   return (
     <div className="App">
       <h1>Hello Project Managers !!</h1>
-      <HelloWorld />
+      {/* <HelloWorld />
       <SayMyName name="Icaro" />
       <SayMyName name={nome} />
       <Person 
@@ -17,8 +19,13 @@ function App() {
         age={32}
         profession="Data and AI Lead"
         photo="https://avatars.githubusercontent.com/u/42342168?v=4"/>
-        <List />
+        <List /> */}
+      <ClickEvent />
+      <ClickEvent project_name="React JS Studies"/>
+      <ProjectForm />
     </div>
+    
+
   )
 }
 
