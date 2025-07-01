@@ -5,6 +5,7 @@ import SayMyName from './components/SayMyName';
 import HelloWorld from './components/HelloWorld';
 import ClickEvent from './components/ClickEvent';
 import ProjectForm from './components/ProjectForm';
+import Conditional from './components/Conditional';
 
 function App() {
   const nome = 'Icaro, Zelioli';
@@ -21,8 +22,9 @@ function App() {
         photo="https://avatars.githubusercontent.com/u/42342168?v=4"/>
         <List /> */}
       {/* <ClickEvent /> */}
-      <ClickEvent project_name="React JS Studies"/>
-      <ProjectForm />
+      {/* <ClickEvent project_name="React JS Studies"/> */}
+      {/* <ProjectForm /> */}
+      <Conditional />
     </div>
     
 
