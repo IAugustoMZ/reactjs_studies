@@ -20,7 +20,7 @@ function App() {
         profession="Data and AI Lead"
         photo="https://avatars.githubusercontent.com/u/42342168?v=4"/>
         <List /> */}
-      <ClickEvent />
+      {/* <ClickEvent /> */}
       <ClickEvent project_name="React JS Studies"/>
       <ProjectForm />
     </div>
