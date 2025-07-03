@@ -1,4 +1,5 @@
 import './App.css';
+import { useState } from 'react';
 import List from './components/List';
 import Person from './components/Person'
 import ArrayList from './components/ArrayList';
@@ -7,6 +8,8 @@ import HelloWorld from './components/HelloWorld';
 import ClickEvent from './components/ClickEvent';
 import ProjectForm from './components/ProjectForm';
 import Conditional from './components/Conditional';
+import ProjectName from './components/ProjectName';
+import Notification from './components/Notification';
 
 function App() {
   const nome = 'Icaro, Zelioli';
@@ -16,6 +19,8 @@ function App() {
     { id: 2, name: 'John Doe', age: 28, profession: 'Software Engineer', photo: 'https://via.placeholder.com/150' },
     { id: 3, name: 'Jane Smith', age: 30, profession: 'Project Manager', photo: 'https://via.placeholder.com/150' }
   ];
+
+  const [projectName, setProjectName] = useState('');
 
   return (
     <div className="App">
@@ -32,12 +37,14 @@ function App() {
       {/* <ClickEvent /> */}
       {/* <ClickEvent project_name="React JS Studies"/> */}
       {/* <ProjectForm /> */}
-      <Conditional />
+      {/* <Conditional />
       <ArrayList items={myItems} />
-      <ArrayList items={[]} />
-    </div>
-    
+      <ArrayList items={[]} /> */}
+      <ProjectName setProjectName={setProjectName}/>
+      <h2>Project Name: {projectName}</h2>
+      <Notification projectName={projectName} />
 
+    </div>
   )
 }
 
