@@ -1,0 +1,22 @@
+{
+  "todos": [
+    {
+      "id": "0.11982159476251963",
+      "title": "Terminar o curso de React",
+      "time": "30",
+      "done": true
+    },
+    {
+      "id": 0.703525889660582,
+      "title": "Write documentation of the developed code",
+      "time": "60",
+      "done": false
+    },
+    {
+      "id": 0.39682522630450123,
+      "title": "Write a README of the To-Do App ",
+      "time": "5",
+      "done": false
+    }
+  ]
+}
