@@ -1,0 +1,36 @@
+@use '../mixins'
+@use '../variables'
+    
+#main-content
+    background-color: variables.$bg-color
+    flex: 3 1 0
+    border-radius: variables.$container-border-radius
+    padding: 3rem
+
+    section
+        display: flex
+        flex-direction: column
+
+    h2
+        color: variables.$text-color
+        font-size: 2.5rem
+        margin-bottom: 1.3rem
+        @include mixins.center
+        justify-content: start
+        gap: 1.2rem
+
+        &:after
+            @include mixins.gradient-border
+
+    p
+        color: variables.$text-color-secondary
+        font-size: 1.5rem
+        line-height: 2rem
+        margin-bottom: 2rem
+
+    .btn
+        @include mixins.btn
+        align-self: start
+
+    
+        
