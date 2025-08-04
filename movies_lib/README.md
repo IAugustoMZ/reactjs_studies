@@ -2,6 +2,12 @@
 
 A simple React project to browse and search for movies. Built with Vite for fast development and modern tooling.
 
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
 ## Features
 
 - Search for movies by title
