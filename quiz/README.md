@@ -1,12 +1,47 @@
-# React + Vite
+# Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple Quiz application built with **React** and **Vite**. The project demonstrates modern React development practices, fast development workflow with Vite, and code quality enforcement using ESLint.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡️ Fast development with Vite and Hot Module Replacement (HMR)
+- 🧩 Modular React components
+- 🚀 Ready for extension and customization
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v14 or higher recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/quiz.git
+cd quiz
+npm install
+```
+
+### Running the App
+
+```bash
+npm run dev
+```
+
+The app will be available at [http://localhost:5173](http://localhost:5173).
+
+### Building for Production
+
+```bash
+npm run build
+```
+
+## Learn More
+
+- [React documentation](https://react.dev/)
+- [Vite documentation](https://vitejs.dev/)
+
+## License
+
+This project is licensed under the MIT License.
